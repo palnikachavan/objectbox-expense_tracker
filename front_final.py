@@ -10,7 +10,6 @@ box = store.box(back.Transaction)
 class ExpenseTracker(QMainWindow):
     def __init__(self):
         super().__init__()
-        
         self.setWindowTitle("Expense Tracker")
         self.setGeometry(100, 100, 400, 300)
         
